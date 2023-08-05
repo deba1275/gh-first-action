@@ -1,0 +1,10 @@
+name: Push workflow
+on: workflow_dispatch
+jobs:
+  my-job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello World Push"
+      - name: Print Good Bye
+        run: echo "Push Done - Bye"

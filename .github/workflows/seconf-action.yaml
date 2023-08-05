@@ -1,5 +1,5 @@
 name: Push workflow
-on: workflow_dispatch
+on: push
 jobs:
   my-job-1:
     runs-on: ubuntu-latest

@@ -8,3 +8,5 @@ jobs:
         run: echo "Hello World Push"
       - name: Print Good Bye
         run: echo "Push Done - Bye"
+      - name: Push workflow testing 
+        run: echo "Push workflow testing done - Bye"
